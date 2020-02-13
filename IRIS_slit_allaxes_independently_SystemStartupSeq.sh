@@ -7,6 +7,4 @@ if test -z "$PYEPICS_LIBCA"; then
     fi
 fi &&
 
-./IRIS_slitSystemStartupSeq.py
-./IRIS_slitSystemMoveGapAndPoistion.py
-
+./IRIS_slit_allaxes_independently_SystemStartupSeq.py

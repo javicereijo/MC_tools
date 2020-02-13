@@ -21,27 +21,6 @@ centerMotor = P+'slit_center'
 HomProcLeft = 2
 HomProcRight = 1
 
-#Disable softLimits
-#ecmcSlitDemoLib.setSoftLowLimt(Mtr1, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(Mtr2, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(Mtr3, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(Mtr4, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(Mtr5, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(Mtr6, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(gapMotor, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(centerMotor, 0)
-#ecmcSlitDemoLib.setSoftLowLimt(masterMotor, 0)
-
-#ecmcSlitDemoLib.setSoftHighLimt(Mtr1, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(Mtr2, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(Mtr3, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(Mtr4, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(Mtr5, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(Mtr6, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(gapMotor, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(centerMotor, 0)
-#ecmcSlitDemoLib.setSoftHighLimt(masterMotor, 0)
-
 #Reset error on all axis
 print 'Reset error on all axes.'
 ecmcSlitDemoLib.setAxisReset(Mtr1, 1)
@@ -142,71 +121,4 @@ if not done:
   sys.exit()
 
 
-#disable amplifier of left and right motor
-print 'Disable amplifiers on all axes.'
-ecmcSlitDemoLib.setAxisEnable(Mtr1, 0)
-ecmcSlitDemoLib.setAxisEnable(Mtr2, 0)
-ecmcSlitDemoLib.setAxisEnable(Mtr3, 0)
-ecmcSlitDemoLib.setAxisEnable(Mtr4, 0)
-ecmcSlitDemoLib.setAxisEnable(Mtr5, 0)
-ecmcSlitDemoLib.setAxisEnable(Mtr6, 0)
-ecmcSlitDemoLib.setAxisEnable(gapMotor, 0)
-ecmcSlitDemoLib.setAxisEnable(centerMotor, 0)
-
-time.sleep(1) #ensure that enabled goes down
-error=ecmcSlitDemoLib.getAxisError(Mtr1,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr2,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr3,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr4,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr5,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr6,1);
-error=ecmcSlitDemoLib.getAxisError(gapMotor,1);
-error=ecmcSlitDemoLib.getAxisError(centerMotor,1);
-
-#change traj source of left and right motor to external
-print 'Set traj source to external for left and right axis.'
-epics.caput(Mtr1 + '-TrajSourceType-Cmd', 1)
-epics.caput(Mtr2 + '-TrajSourceType-Cmd', 1)
-epics.caput(Mtr3 + '-TrajSourceType-Cmd', 1)
-epics.caput(Mtr4 + '-TrajSourceType-Cmd', 1)
-epics.caput(Mtr5 + '-TrajSourceType-Cmd', 1)
-epics.caput(Mtr6 + '-TrajSourceType-Cmd', 1)
-error=ecmcSlitDemoLib.getAxisError(Mtr1,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr2,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr3,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr4,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr5,1);
-error=ecmcSlitDemoLib.getAxisError(Mtr6,1);
-
-
-time.sleep(5) #ensure that enabled goes up
-
-
-#enable gap and center motor
-print 'Enable amplifiers on centre and gap axis.'
-epics.caput(gapMotor + '.CNEN', 1)
-epics.caput(centerMotor + '.CNEN', 1)
-time.sleep(1) #ensure that enabled goes up
-error=ecmcSlitDemoLib.getAxisError(gapMotor,1)
-error=ecmcSlitDemoLib.getAxisError(centerMotor,1)
-
-#enable left and right blades
-print 'Enable amplifiers for real axes.'
-epics.caput(Mtr1 + '.CNEN', 1)
-epics.caput(Mtr2 + '.CNEN', 1)
-epics.caput(Mtr3 + '.CNEN', 1)
-epics.caput(Mtr4 + '.CNEN', 1)
-epics.caput(Mtr5 + '.CNEN', 1)
-epics.caput(Mtr6 + '.CNEN', 1)
-time.sleep(1) #ensure that enabled goes up
-error=ecmcSlitDemoLib.getAxisError(Mtr1,1)
-error=ecmcSlitDemoLib.getAxisError(Mtr2,1)
-error=ecmcSlitDemoLib.getAxisError(Mtr3,1)
-error=ecmcSlitDemoLib.getAxisError(Mtr4,1)
-error=ecmcSlitDemoLib.getAxisError(Mtr5,1)
-error=ecmcSlitDemoLib.getAxisError(Mtr6,1)
-
-
-print "Slit system ready to operate!"
-
-
+print 'The IRIS is ready to move: you can move 6 axes independentlyc'
