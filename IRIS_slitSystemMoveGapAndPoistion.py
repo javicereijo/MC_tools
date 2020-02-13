@@ -33,8 +33,8 @@ time.sleep(0.5)
 
 
 while True:
-    mov=0
-    if mov == 0:
+    mov=10
+    if mov == 10:
       print "Moving gap to %s" % mov
       done=ecmcSlitDemoLib.moveAxisPosition(gapMotor,mov)
       if not done:
@@ -44,9 +44,9 @@ while True:
       if not done:
         print "%s failed waiting" % gapMotor
         sys.exit() 
-      mov=76
+      mov=60
       time.sleep(2)
-    if mov == 76:
+    if mov == 60:
       print "Moving gap to %s" % mov
       done=ecmcSlitDemoLib.moveAxisPosition(gapMotor,mov)
       if not done:
