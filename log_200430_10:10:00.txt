@@ -1,0 +1,135 @@
+/lib//libca.so
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1-ErrRst", Connecting to: 172.30.150.77:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:00.187694649
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2-ErrRst", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:00.202358524
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1.CNEN", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:00.718229583
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.CNEN", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:00.744867827
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1-ErrId", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:01.260474591
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2-ErrId", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:01.287134499
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1.LLS", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:01.314873478
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.LLS", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:01.340870282
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.VAL", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:02.373362092
+..................................................................
+Reset error on all axes.
+Enable Axes
+LLS1 1 LLS2 1
+Both axes are in the LLS
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 0
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.DMOV", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:02.777934576
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.MOVN", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 10:10:02.804513954
+..................................................................
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 7
+.................................
