@@ -1,0 +1,807 @@
+/lib//libca.so
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1-ErrRst", Connecting to: 172.30.150.77:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:25.306883098
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2-ErrRst", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:25.321083272
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1.CNEN", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:25.836164629
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.CNEN", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:25.863403126
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1-ErrId", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:26.378134777
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2-ErrId", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:26.405694434
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1.LLS", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:26.432539579
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.LLS", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:26.459672133
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.VAL", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:27.489018005
+..................................................................
+Reset error on all axes.
+Enable Axes
+LLS1 1 LLS2 1
+Both axes are in the LLS
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 0
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.DMOV", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:27.895316028
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis2.MOVN", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:26:27.922372582
+..................................................................
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 2
+.....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 7
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 8
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 10
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 0
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1.VAL", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:34:24.185265236
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1.DMOV", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:34:24.584993313
+..................................................................
+CA.Client.Exception...............................................
+    Warning: "Identical process variable names on multiple servers"
+    Context: "Channel: "MEBT-EMU:Axis1.MOVN", Connecting to: cslab-ccpu-bi-3.cslab.esss.lu.se:5064, Ignored: cslab-ccpu-bi-3.cslab.esss.lu.se:5064"
+    Source File: ../cac.cpp line 1320
+    Current Time: Thu Apr 30 2020 11:34:24.611553139
+..................................................................
+....................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 7
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 8
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 10
+......................................................
+LLS1 1 LLS2 1
+Both axes are in the LLS
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 0
+....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 4
+.....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 7
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 8
+.....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 10
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 0
+....................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 7
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 8
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 10
+......................................................
+LLS1 1 LLS2 1
+Both axes are in the LLS
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 0
+....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 3
+.....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 7
+.....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 8
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 10
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 0
+....................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 7
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 8
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 10
+......................................................
+LLS1 1 LLS2 1
+Both axes are in the LLS
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 0
+....................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 7
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 8
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move right axis to LLS, turn: 10
+.....................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 0
+....................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 0
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 1
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 1
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 2
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 2
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 3
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 3
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 4
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 4
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 5
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 5
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 6
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 6
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 7
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 7
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 8
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 8
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 9
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 9
+......................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos 10, turn: 10
+...................................................
+Reset error on all axes.
+Enable Axes
+Move left axis to pos LLS, turn 10
+......................................................
+LLS1 1 LLS2 1
+Both axes are in the LLS
+Reset error on all axes.
+Enable Axes
+Move right axis to pos 10, turn: 0
+.........................................................
+%s failed to position.
+MEBT-EMU:Axis2 failed to position.
