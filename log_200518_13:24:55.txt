@@ -1,0 +1,23 @@
+/lib//libca.so
+**** The executable "caRepeater" couldn't be located
+**** because of errno = "No such file or directory".
+**** You may need to modify your PATH environment variable.
+**** Unable to start "CA Repeater" process.
+Reset error on all axes.
+cannot connect to MEBT-EMU:Axis1-ErrRst
+CA client library is unable to contact CA repeater after 50 tries.
+Silence this message by starting a CA repeater daemon
+or by calling ca_pend_event() and or ca_poll() more often.
+cannot connect to MEBT-EMU:Axis2-ErrRst
+cannot connect to MEBT-EMU:Axis1-ErrRst
+cannot connect to MEBT-EMU:Axis2-ErrRst
+Enable Axes
+cannot connect to MEBT-EMU:Axis1.CNEN
+cannot connect to MEBT-EMU:Axis2.CNEN
+cannot connect to MEBT-EMU:Axis1-ErrId
+Traceback (most recent call last):
+  File "./collisionavoidance_v2.py", line 27, in <module>
+    error=ecmcSlitDemoLib.getAxisError(leftMotor,1)
+  File "/home/iocuser/devspace/MC_tools/ecmcSlitDemoLib.py", line 78, in getAxisError
+    errorId=int(epics.caget(motor + '-ErrId'))
+TypeError: int() argument must be a string or a number, not 'NoneType'
